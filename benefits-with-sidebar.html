@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!--if lt IE 7| <html class="ie6" lang="en" dir="ltr">
+-->
+<!--if IE 7| <html class="ie7" lang="en" dir="ltr">
+-->
+<!--if IE 8| <html class="ie8" lang="en" dir="ltr">
+-->
+<!--if IE 9| <html class="ie9" lang="en" dir="ltr">
+-->
+<!--if IE 10| <html class="ie10" lang="en" dir="ltr">
+-->
+<!-- [if gt IE 10] <!-->
+<html lang="en" dir="ltr" class="no-touch">
+  <!-- <![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <title>Sephora</title>
+    <meta name="description" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta id="viewport" name="viewport" content="width=device-width, maximum-scale=1.0">
+    <link rel="stylesheet" href="public/css/main-ltr.css?1400588118110">
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <script src="public/js/modernizr.custom.59715.js?1400588118110" type="text/javascript"></script>
+    <script src="public/js/sizzle.min.js?1400588118110" type="text/javascript"></script>
+    <script src="public/js/fastclick.js?1400588118110" type="text/javascript"></script>
+    <script src="public/js/swipe.js?1400588118110" type="text/javascript"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSej2fcXuhyWvARRUtk0gQBfOQC3bFnO0&amp;sensor=true"></script>
+    <script src="public/js/retina.min.js?1400588118110" type="text/javascript"></script>
+    <script src="public/js/responsi.js?1400588118110" type="text/javascript"></script>
+    <script src="public/js/main.js?1400588118110" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script type="text/javascript">
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <header role="banner" class="role-banner">
+      <div class="container">
+        <h1><a href="homepage.html"><img id="logo" src="public/img/logo.png" alt="Sephora"></a></h1>
+        <ul class="languages">
+          <!-- CHANGE 19/09/13 : Remove duplicate UL-->
+          <li class="current"><a href="/fr/benefits-with-sidebar">French</a></li>
+          <li><a href="/us/benefits-with-sidebar">English</a></li>
+        </ul>
+        <nav role="navigation" class="role-navigation"><a id="main-menu-link" href="#">Menu</a>
+          <ul>
+            <li><a href="card-program.html">Card program</a></li>
+            <li class="dropdown"><a href="brands.html">Brands</a>
+              <ul>
+                <li><a href="brands-sephora.html">The Sephora Brand</a></li>
+                <li><a href="brands-exclusive.html">Exclusives Brands</a></li>
+                <li><a href="brands-selective.html">Selectives Brands</a></li>
+                <li><a href="best-sellers.html">Best sellers</a></li>
+                <li><a href="good-deals.html">Good Deals</a></li>
+              </ul>
+            </li>
+            <li class="dropdown"><a href="storelocator.html">Stores</a>
+              <ul>
+                <li><a href="storelocator.html">Stores</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Career</a></li>
+            <li><a href="saga.html">Sephora Saga</a></li>
+            <li><a href="#">The social wall</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+          <form id="form-search" method="post" action="/en/search">
+            <ul class="form">
+              <li>
+                <!-- CHANGE 18/10/2013 Add autocorrect attribute to input-->
+                <input id="id_search" type="search" name="q" value="" placeholder="Search" autocorrect="off" class="search">
+                <input type="submit" value="" class="submit">
+              </li>
+            </ul>
+          </form>
+        </nav>
+      </div>
+    </header>
+    <ul class="breadcrumbs">
+      <li><a href="homepage.html">Homepage</a></li>
+      <li class="current"><a>Benefits</a></li>
+    </ul>
+    <!-- Content-->
+    <div id="container" class="split">
+      <article id="benefits">
+        <header><img src="public/img/benefits-header.png" alt="Let Sephora color your world"/></header>
+        <div class="content">
+          <section>
+            <header>
+              <h2><strong>Earn points</strong> & get rewarded</h2>
+            </header>
+            <div class="content">
+              <p>Thanks to your Sephora Card you can earn points with every purchases !</p>
+              <p>With 4 purchase days of XXX points accumulated you will be entitled to a 10% discount voucher for your next purchase.</p>
+              <div class="points-reward">
+                <ul class="cards">
+                  <li><img src="public/img/card-white.png" alt="Sephora White Card"/></li>
+                  <li><img src="public/img/card-black.png" alt="Sephora Black Card"/></li>
+                </ul>
+                <ul class="purchase-days">
+                  <li class="white-card"><span>4 purchase days</span></li>
+                  <li class="black-card"><span>4 purchase days</span></li>
+                  <li class="black-card"><span>4 purchase days</span></li>
+                  <li class="black-card"><span>4 purchase days</span></li>
+                  <li class="last"><span></span></li>
+                </ul>
+                <ul class="points">
+                  <li><span>150 points</span><img src="public/img/benefits-points.jpg" alt="10% off your next purchase"/></li>
+                  <li><span>300 points</span><img src="public/img/benefits-points.jpg" alt="10% off your next purchase"/></li>
+                  <li><span>450 points</span><img src="public/img/benefits-points.jpg" alt="10% off your next purchase"/></li>
+                  <li class="empty">....</li>
+                </ul>
+              </div>
+            </div>
+            <footer>
+              <ul class="stars">
+                <li>Only one purchase per day accounted</li>
+                <li>Valid for your next purchase. See Legal Bonus 10% off</li>
+              </ul>
+            </footer>
+          </section>
+          <section>
+            <header>
+              <h2><strong>Discover the advantages</strong> of the Sephora Cards</h2>
+            </header>
+            <div class="content">
+              <ul id="cards" class="toc">
+                <li><a href="#white-card"><img src="public/img/card-white.png" alt=""/><span>Sephora White Card</span></a></li>
+                <li><a href="#black-card"><img src="public/img/card-black.png" alt=""/><span>Sephora Black Card</span></a></li>
+              </ul>
+              <section>
+                <div class="content tabs">
+                  <section id="white-card" class="white tab">
+                    <header>
+                      <h3>The Sephora White Card, your ticket to beautiful attentions</h3>
+                    </header>
+                    <div class="content">
+                      <p>For any purchase made at Sephora you can ask the Sephora White Card to our beauty advisors for free. It will be the  start of a privileged relationship with Sephora.</p>
+                      <div class="newsletter">
+                        <div class="image-container"><img src="public/img/benefits-newsletter.jpg" alt="Sephora Newsletter"/></div>
+                        <ul>
+                          <li><strong>WELCOME BONUS</strong> if you register your email address. if you register your email address. if you register your email address.</li>
+                          <li><strong>EXCLUSIVE PROMOTIONS</strong> troughout the year.</li>
+                          <li><strong>WELCOME BONUS</strong> if you register your email address. if you register your email address. if you register your email address.</li>
+                        </ul>
+                      </div>
+                      <p>And when you reach XXX points or 4 purchase days you will receive the Sephora Black Card with a 10% discount voucher to fully explore a new world of advantages.</p>
+                    </div>
+                    <footer>
+                      <p>Do you have a Sephora White Card and want to active it ? Please click <a href="#">here</a></p>
+                    </footer>
+                  </section>
+                  <section id="black-card" class="black tab">
+                    <header>
+                      <h3>The Sephora Black Card, a never-ending beautiful journey</h3>
+                    </header>
+                    <div class="content">
+                      <p>In addition to the Sephora White Card attentions you will access more rewards with your Sephora Black Card</p>
+                      <div class="newsletter">
+                        <div class="image-container"><img src="public/img/benefits-newsletter.jpg" alt="Sephora Newsletter"/></div>
+                        <ul>
+                          <li><strong>PRIVATE SALES</strong> 20% off your purchases</li>
+                          <li><strong>PERSONALIZED BEAUTY OFFERS</strong> troughout the year.</li>
+                        </ul>
+                      </div>
+                      <ul class="images">
+                        <li><img src="public/img/benefits-newsletter.jpg" alt=""/></li>
+                        <li><img src="public/img/benefits-newsletter.jpg" alt=""/></li>
+                        <li><img src="public/img/benefits-newsletter.jpg" alt=""/></li>
+                      </ul>
+                      <p>If you cunmulate X XXX points with 12 months you will get access to the Sephora Gold Card privileges.</p>
+                    </div>
+                    <footer>
+                      <p>If you have any question you can contact the Sephora Careline at XXXXX.</p>
+                    </footer>
+                  </section>
+                </div>
+              </section>
+            </div>
+          </section>
+        </div>
+      </article>
+      <aside id="fid">
+        <header>
+          <h2></h2>
+        </header>
+        <div class="content">
+          <ul class="groups">
+            <li class="group">
+              <ul>
+                <li><a href="#"></a></li>
+                <li class="active"><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+    <!-- /Content-->
+    <footer role="contentinfo" class="contentinfo">
+      <div class="container">
+            <nav>
+              <ul>
+                <li class="on-desktop"><a href="card-program.html">Card Program</a></li>
+                <li class="on-desktop"><a href="brands.html">Brands</a></li>
+                <li class="on-desktop"><a href="storelocator.html">Stores</a></li>
+                <li class="on-desktop"><a href="/en#">Career</a></li>
+                <li class="on-desktop"><a href="saga.html">Sephora Saga</a></li>
+                <li class="on-desktop"><a href="/en#">Social Wall</a></li>
+                <li class="on-desktop"><a href="contact.html">Contact US</a></li>
+                <li class="on-desktop"><a href="/en#">Example</a></li>
+                <li class="on-desktop"><a href="/en#">Example</a></li>
+                <li class="on-desktop"><a href="/en#">Example</a></li>
+                <li class="on-desktop"><a href="/en#">Example</a></li>
+                <li class="on-desktop"><a href="/en#">Example</a></li>
+                <li class="on-desktop"><a href="/en#">Example</a></li>
+                <li class="on-mobile"><a href="contact.html">Contact</a></li>
+                <li class="on-mobile"><a href="cgv.html">Mentions</a></li>
+                <li class="on-mobile"><a href="sitemap.html">Site Map</a></li>
+                <li class="on-mobile"><a href="international.html">International</a></li>
+                <li class="on-mobile"><a href="/en#">Example</a></li>
+                <li class="on-mobile"><a href="/en#">Example</a></li>
+                <li class="on-mobile"><a href="/en#">Example</a></li>
+                <li class="on-mobile"><a href="/en#">Example</a></li>
+                <li class="on-mobile"><a href="/en#">Example</a></li>
+                <li class="on-mobile"><a href="/en#">Example</a></li>
+                <li class="on-mobile"><a href="/en#">Example</a></li>
+                <li class="on-mobile"><a href="/en#">Example</a></li>
+                <li class="on-mobile"><a href="/en#">Example</a></li>
+              </ul>
+            </nav>
+            <nav>
+              <ul>
+                <li><a href="/fr/benefits-with-sidebar">France</a>
+                </li>
+                <li><a href="/us/benefits-with-sidebar">USA</a>
+                </li>
+                <li><a href="/cn/benefits-with-sidebar">China</a>
+                </li>
+                <li><a href="#">Nederlands</a>
+                </li>
+                <li><a href="/it/benefits-with-sidebar">Italia</a>
+                </li>
+                <li><a href="//benefits-with-sidebar">Poland</a>
+                </li>
+                <li><a href="/pt/benefits-with-sidebar">Portugal</a>
+                </li>
+                <li><a href="/gr/benefits-with-sidebar">Greece</a>
+                </li>
+                <li><a href="/ro/benefits-with-sidebar">Romania</a>
+                </li>
+                <li><a href="/es/benefits-with-sidebar">Spain</a>
+                </li>
+                <li><a href="/cz/benefits-with-sidebar">Czech Republic</a>
+                </li>
+                <li><a href="/tr/benefits-with-sidebar">Turkey</a>
+                </li>
+                <li><a href="/sg/benefits-with-sidebar">Singapore</a>
+                </li>
+                <li><a href="/my/benefits-with-sidebar">Malaysia</a>
+                </li>
+                <li><a href="#">Example</a>
+                </li>
+                <li><a href="#">Example</a>
+                </li>
+                <li><a href="#">Example</a>
+                </li>
+                <li><a href="#">Example</a>
+                </li>
+                <li><a href="#">Example</a>
+                </li>
+                <li><a href="#">Example</a>
+                </li>
+              </ul>
+            </nav>
+      </div>
+    </footer>
+  </body>
+</html>

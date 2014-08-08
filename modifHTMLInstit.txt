@@ -1,0 +1,218 @@
+fiche produit sephora
+
+ligne 181
+
+<a href="#"><div class="banner-container">
+<img src="public/img/fd_ban1.png" alt="">
+<p><strong>At vero eos</strong><br>
+Sed ut perspiciatis unde omnis iste natus 
+sit volup accusantium dolo remque</p>
+<a class="link" href="#">Quisquam</a>
+</div>
+</a>
+<a href="#"><div class="banner-container">
+<img src="public/img/fd_ban2.png" alt="">
+<p><strong>praesentium voluptatum</strong><br>
+Sed ut perspiciatis unde omnis iste natus sit
+volup blanditiis accusantium dolo remque</p>
+<a class="link" href="#">similique</a>
+</div>
+</a>
+
+modifié en :
+
+<a href="#"><div class="banner-container">
+<img src="public/img/fd_ban1.png" alt="">
+</a>
+<a href="#"><div class="banner-container">
+<img src="public/img/fd_ban2.png" alt="">
+</a>
+
+
+ligne 150:
+
+
+<div class="video-vign">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=L6HJj_JShNg"><img src="public/img/video1.jpg" alt=""></a>
+<p><strong>VIDEO</strong> - UPSIDE DOWN Mascara<br>
+Dessus-Dessous</p>
+</div>
+<div class="video-vign">
+<a href="#"><img src="public/img/video2.jpg" alt=""></a>
+<p><strong>VIDEO</strong> - Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+<div class="video-vign">
+<a href="#"><img src="public/img/tuto1.jpg" alt=""></a>
+<p><strong>TUTO</strong> - Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+<div class="video-vign">
+<a href="#"><img src="public/img/tuto2.jpg" alt=""></a>
+<p><strong>TUTO</strong> - Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+
+!! implémentation de classs clear pour les bloc gauche et right pour les bloc droite
+Modifié en:
+
+<div class="video-vign right">
+<a href="#"><img src="public/img/video2.jpg" alt=""></a>
+<p><strong>VIDEO</strong> - Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+<div class="video-vign clear">
+<a href="#"><img src="public/img/tuto1.jpg" alt=""></a>
+<p><strong>TUTO</strong> - Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+<div class="video-vign right">
+<a href="#"><img src="public/img/tuto2.jpg" alt=""></a>
+<p><strong>TUTO</strong> - Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+</div>
+
+
+
+FICHE2 produit
+
+Ligne 140
+
+<div class="banner-container gdban">
+<img src="public/img/fd_gdban.png" alt="">
+<p><strong>ipsum dolor</strong><br>
+Sed ut perspiciatis unde omnis iste natus error
+sit voluptatem accusantium dolo remque</p>
+<a class="link" href="#">Quisquam est</a>
+</div>
+
+modifié en:
+
+<div class="banner-container gdban">
+    <a href="#">
+        <img src="public/img/fd_gdban.png" alt="">
+    </a>
+</div>
+
+
+ligne 109:
+
+
+<div class="bloc-prod prod-sampar">
+  <div class="bloc-prod-cont blocD">
+<h1>Un masque hydrogel ultra hydratant en mono dose</h1>
+<p class="sst1"><strong>Sampar</strong> Masque "EAU" Secours !</p>
+<a class="link" href="#">JE LE VEUX</a>
+<div class="fd_person">
+<img src="public/img/SAMI.png" alt="">
+<p><strong>SAMI</strong>, Beauty Addict chez Sephora depuis 11 ans</p></div>
+<p class="sst2">« Un masque hydrogel ultra hydratant en mono doses ultra pratique et ludique. De quoi réhydrater sa peau pour 30 heures<sup>*</sup> en seulement 20 minutes ! ».</p>
+<p class="sst3"><sup>*</sup>Résultat mesuré selon un test scientifique réalisé sur 11 sujets</p>                
+  </div>
+</div>
+<div class="bloc-prod prod-benefit">
+  <div class="bloc-prod-cont blocG">
+<h1>Un fond de teint facile qui sait tout faire</h1>
+<p class="sst1"><strong>Benefit</strong> Big Easy</p>
+<a class="link" href="#">JE LE VEUX</a>
+<div class="fd_person">
+<img src="public/img/ELIZABETH.png" alt="">
+<p><strong>ELIZABETH</strong>, Beauty Addict chez Sephora depuis 2 ans</p></div>
+<p class="sst2">« C’est un petit miracle pour les femmes pressées ou les nulles en teint : une texture légère et confortable qui maquille à la perfection en un rien de temps avec un SPF ».</p>
+<p class="sst4"></p>                     
+  </div>
+</div>
+<div class="bloc-prod prod-yves">
+  <div class="bloc-prod-cont blocD">
+<h1>Un rehausseur hybride joues et lèvres ultra-chic</h1>
+<p class="sst1"><strong>Yves Saint Laurent</strong> Baby Doll Kiss & Blush</p>
+<a class="link" href="#">JE LE VEUX</a>
+<div class="fd_person">
+<img src="public/img/CYNTHIA.png" alt="">
+<p><strong>CYNTHIA</strong>, Beauty Addict chez Sephora depuis 4 ans</p></div>
+<p class="sst2">« Toute la technologie de Saint Laurent pour un produit hybride double fonction. Pratique et glamour, il maquille en un instant lèvres et joues en coordonné ».</p>
+<p class="sst4"></p>                     
+  </div>
+</div> 
+<div class="bloc-prod prod-made">
+  <div class="bloc-prod-cont blocG">
+<h1>Une vraie garde-robe pour les ongles</h1>
+<p class="sst1"><strong>Made In Sephora</strong> Nail Textile</p>
+<a class="link" href="#">JE LE VEUX</a>
+<div class="fd_person">
+<img src="public/img/LAETITIA.png" alt="">
+<p><strong>LAETITIA</strong>, Beauty Addict chez Sephora depuis 10 ans</p></div>
+<p class="sst2">« Les nouveaux nail patchs de Sephora se déclinent aussi en vrai tissus ! De quoi habiller ses mains comme des accessoires de mode. Les ongles aussi ont droit de porter un jeans ! ».</p>
+<p class="sst4"></p>                     
+  </div>
+</div>
+
+
+modifié en :
+
+
+<div class="bloc-prod prod-sampar">
+  <div class="bloc-prod-cont blocD">
+<h1>Un masque hydrogel ultra hydratant en mono dose</h1>
+<p class="sst1"><strong>Sampar</strong> Masque "EAU" Secours !</p>
+<a class="link" href="#">JE LE VEUX</a>
+<div class="fd_person" id="sami">
+  <p><strong>SAMI</strong>, Beauty Addict chez Sephora depuis 11 ans  Beauty Addict chez Sephora depuis 11 ans  Beauty Addict chez Sephora depuis 11 ans</p>
+  <span class="personn"></span>
+</div>
+<p class="sst2">« Un masque hydrogel ultra hydratant en mono doses ultra pratique et ludique. De quoi réhydrater sa peau pour 30 heures<sup>*</sup> en seulement 20 minutes ! ».</p>
+          <ul class="stars">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pellentesque ut tellus sed consequat. Curabitur eget porttitor urna. V</li>
+          </ul>          
+  </div>
+</div>
+<div class="bloc-prod prod-benefit">
+  <div class="bloc-prod-cont blocG">
+<h1>Un fond de teint facile qui sait tout faire</h1>
+<p class="sst1"><strong>Benefit</strong> Big Easy</p>
+<a class="link" href="#">JE LE VEUX</a>
+<div class="fd_person" id="elizabeth">
+  <p><strong>ELIZABETH</strong>, Beauty Addict chez Sephora depuis 2 ans</p>
+  <span class="personn"></span>
+</div>
+<p class="sst2">« C’est un petit miracle pour les femmes pressées ou les nulles en teint : une texture légère et confortable qui maquille à la perfection en un rien de temps avec un SPF ».</p>
+<p class="sst4"></p>                     
+  </div>
+</div>
+<div class="bloc-prod prod-yves">
+  <div class="bloc-prod-cont blocD">
+<h1>Un rehausseur hybride joues et lèvres ultra-chic</h1>
+<p class="sst1"><strong>Yves Saint Laurent</strong> Baby Doll Kiss & Blush</p>
+<a class="link" href="#">JE LE VEUX</a>
+<div class="fd_person" id="cynthia">
+  <p><strong>CYNTHIA</strong>, Beauty Addict chez Sephora depuis 4 ans</p>
+  <span class="personn"></span>
+</div>
+<p class="sst2">« Toute la technologie de Saint Laurent pour un produit hybride double fonction. Pratique et glamour, il maquille en un instant lèvres et joues en coordonné ».</p>
+<p class="sst4"></p>                     
+  </div>
+</div> 
+<div class="bloc-prod prod-made">
+  <div class="bloc-prod-cont blocG">
+<h1>Une vraie garde-robe pour les ongles</h1>
+<p class="sst1"><strong>Made In Sephora</strong> Nail Textile</p>
+<a class="link" href="#">JE LE VEUX</a>
+<div class="fd_person" id="laetitia">
+  <p><strong>LAETITIA</strong>, Beauty Addict chez Sephora depuis 10 ans</p>
+  <span class="personn"></span>
+</div>
+<p class="sst2">« Les nouveaux nail patchs de Sephora se déclinent aussi en vrai tissus ! De quoi habiller ses mains comme des accessoires de mode. Les ongles aussi ont droit de porter un jeans ! ».</p>
+<p class="sst4"></p>                     
+  </div>
+</div>
+
+
+Ligne 159
+<p class="sst3"><sup>*</sup>Résultat mesuré selon un test scientifique réalisé sur 11 sujets</p>
+
+modifié en:
+
+<ul class="stars">
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pellentesque ut tellus sed consequat. Curabitur eget porttitor urna. V</li>
+</ul>          

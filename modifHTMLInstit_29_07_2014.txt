@@ -1,0 +1,122 @@
+fiche-produit-sephora.html
+
+changement en ligne 148 de:
+
+
+<div class="videos-container">
+  
+<div class="video-vign clear">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=L6HJj_JShNg"><img src="public/img/video1.jpg" alt=""></a>
+<p><strong>VIDEO</strong> - UPSIDE DOWN Mascara<br>
+Dessus-Dessous
+<strong>VIDEO</strong> - UPSIDE DOWN Mascara<br>
+Dessus-Dessous
+
+<strong>VIDEO</strong> - UPSIDE DOWN Mascara<br>
+Dessus-Dessous
+<strong>VIDEO</strong> - UPSIDE DOWN Mascara<br>
+Dessus-Dessous
+
+</p>
+</div>
+<div class="video-vign right">
+<a href="#"><img src="public/img/video2.jpg" alt=""></a>
+<p><strong>VIDEO</strong> - Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+<div class="video-vign clear">
+<a href="#"><img src="public/img/tuto1.jpg" alt=""></a>
+<p><strong>TUTO</strong> - Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+<div class="video-vign right">
+<a href="#"><img src="public/img/tuto2.jpg" alt=""></a>
+<p><strong>TUTO</strong> - Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+</div>
+
+<a href="#"><div class="banner-container">
+<img src="public/img/fd_ban1.png" alt="">
+</a>
+<a href="#"><div class="banner-container">
+<img src="public/img/fd_ban2.png" alt="">
+</a>
+
+          </div>
+          
+        </div>
+  
+  
+  
+  PAR:
+  
+  
+<div class="videos-container">
+  
+<div class="video-vign clear">
+<a class="popup-youtube" href="https://www.youtube.com/watch?v=L6HJj_JShNg"><img src="public/img/video1.jpg" alt=""></a>
+<p>- UPSIDE DOWN Mascara<br>
+Dessus-Dessous
+</p>
+</div>
+<div class="video-vign right">
+<a href="#"><img src="public/img/video2.jpg" alt=""></a>
+<p>- Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+<div class="video-vign clear">
+<a href="#"><img height="350" src="public/img/tuto1.jpg" alt=""></a>
+<p>- Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+<div class="video-vign right">
+<a href="#"><img height="350" src="public/img/tuto2.jpg" alt=""></a>
+<p>- Découvrez comment vous faire un regard
+spectaculaire en 3 étapes</p>
+</div>
+</div>
+<div class="banner-container">
+<a href="#">
+<img src="public/img/fd_ban1.png" alt="">
+</a>
+</div>
+<div class="banner-container">
+<a href="#">
+    <img src="public/img/nails-color-hit-n58.png" alt="">
+</a>
+         
+        </div>
+
+
+
+brands-other.html
+
+
+Changement ligne 94 de:
+
+        <header>
+          <h1><img src="public/img/make-up-forever.png" alt="Make Up For Ever"></h1>
+          <!-- Change 19/09/2013 Embed img in .image-container-->
+          <div class="image-container"><img src="public/img/make-up-forever-alt.jpg" alt=""></div>
+          <!-- Change 08/10/2013 Embed p in .header-content-->
+          <div class="header-content">
+            <p>MAKE UP FOR EVER is a professional makeup brand created in Paris in 1984 by Dany Sanz, an artist, sculptor and makeup. Today it is a cult brand that caters to a demanding public and warned. It is used both by professional makeup artists, models and celebrities and the general public. The brand is now exporting its colors, its philosophy and pedagogy in more than 45 countries.</p>
+          </div>
+          <!-- Change URL in data-href-->
+          <div data-href="https://developers.facebook.com/docs/reference/plugins/like/" data-send="false" data-layout="button_count" data-width="300" data-show-faces="false" class="fb-like"></div>
+        </header>
+        
+        PAR
+        
+        <header>
+          <h1><img src="public/img/make-up-forever.png" alt="Make Up For Ever"></h1>
+          <!-- Change 08/10/2013 Embed p in .header-content-->
+          <div class="header-content">
+            <p>MAKE UP FOR EVER is a professional makeup brand created in Paris in 1984 by Dany Sanz, an artist, sculptor and makeup. Today it is a cult brand that caters to a demanding public and warned. It is used both by professional makeup artists, models and celebrities and the general public. The brand is now exporting its colors, its philosophy and pedagogy in more than 45 countries.</p>
+          </div>
+          <!-- Change 19/09/2013 Embed img in .image-container-->
+          <div class="image-container"><img src="public/img/make-up-forever-alt.jpg" alt=""></div>
+          <!-- Change URL in data-href-->
+          <div data-href="https://developers.facebook.com/docs/reference/plugins/like/" data-send="false" data-layout="button_count" data-width="300" data-show-faces="false" class="fb-like"></div>
+        </header>
