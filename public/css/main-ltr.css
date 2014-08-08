@@ -8009,3 +8009,137 @@ html.ie8 #benefits .points-reward .purchase-days li span {
     overflow-y:auto !important;
     padding:0 !important;
 }
+
+/*Anciennement style.css*/
+
+/**************************** HOT NOW *********************************/
+
+article#hot-now-new > header{background-color:#fff;zoom:1;position:relative;margin-bottom:25px}
+article#hot-now-new > header:before,article#hot-now > header:after{content:"";display:table}
+article#hot-now-new > header:after{clear:both}
+article#hot-now-new > header *{color:#fff}
+article#hot-now-new > header h1{padding:20px 36px}
+article#hot-now-new > header h1 img{width:100%}
+article#hot-now-new > header p{padding:0 20px 0 20px}
+article#hot-now-new > header h1{width:38%}
+article#hot-now-new > header .season{background-color:#000;position:relative;padding:40px 0 20px 15px}
+article#hot-now-new > header .season p:first-child{margin-top: -60px;line-height:42px;color:#000;display: table;padding:2px 10px 0 16px;background-color:#cc0000;font-family:'ITCAvantGardePro-XLt';font-size:40px;}
+article#hot-now-new > header .season p:first-child > strong{font-family:'Century-Gothic-Bold';font-size:43px;display:inline-block;*display:inline;*zoom:1;margin-left:10px}
+article#hot-now-new > header .season p:first-child + p{font-family:Arial;font-weight:bold;font-size:12px}
+article#hot-now-new > header .season p:first-child + p + p{font-family:Arial;font-weight:normal;font-size:12px;width: 36%;}
+article#hot-now-new > header .player{position:absolute;top:20px;right:20px;width:60%;border:0;height:89%;z-index:10}
+
+article#hot-now-new > .content {display:table;width:100%}
+article#hot-now-new > .content .bloc-prod{width:100%;margin-bottom:25px;padding:40px 0}
+article#hot-now-new > .content .prod-sampar{background:#fff url("../img/fd-prod-sampar.jpg") no-repeat top left}
+article#hot-now-new > .content .prod-benefit{background:#fff url("../img/fd-prod-benefit.jpg") no-repeat top right}
+article#hot-now-new > .content .prod-yves{background:#fff url("../img/fd-prod-yves.jpg") no-repeat top left}
+article#hot-now-new > .content .prod-made{background:#fff url("../img/fd-prod-made.jpg") no-repeat top right}
+
+article#hot-now-new > .content .bloc-prod-cont{background-color:#fff;width:52%;padding:20px 55px 5px 60px}
+
+article#hot-now-new > .content .bloc-prod:after{clear:both;content:"";display:table}
+article#hot-now-new > .content .blocD{float:right}
+article#hot-now-new > .content .blocG{float:left}
+article#hot-now-new > .content .bloc-prod-cont h1{font-family:'ITCAvantGardePro-Bold';font-size:18px;text-transform:uppercase;height:42px}
+article#hot-now-new > .content .bloc-prod-cont p.sst1{z-index: 0;margin:20px 0 15px 0;font-size:16px;display: table;background-color: transparent;}
+article#hot-now-new > .content .bloc-prod-cont p.sst1 strong{text-transform:uppercase;font-size:16px;background-color: transparent;}
+article#hot-now-new > .content .bloc-prod-cont .fd_person{position:relative;display: table;width: 90%;margin-bottom: 20px;}
+article#hot-now-new > .content .bloc-prod-cont .fd_person .personn{position:absolute;display: table;position: absolute;bottom: -10px;right:5px;height: 87px;width: 77px;}
+article#hot-now-new > .content .bloc-prod-cont .fd_person#sami .personn{background: transparent url("../img/sami.png") right bottom no-repeat;width: 91px;}
+article#hot-now-new > .content .bloc-prod-cont .fd_person#elizabeth .personn{background: transparent url("../img/elizabeth.png") right bottom no-repeat;width: 99px;}
+article#hot-now-new > .content .bloc-prod-cont .fd_person#cynthia .personn{background: transparent url("../img/cynthia.png") right bottom no-repeat;width: 91px;}
+article#hot-now-new > .content .bloc-prod-cont .fd_person#laetitia .personn{background: transparent url("../img/laetitia.png") right bottom no-repeat;width: 91px;}
+article#hot-now-new > .content .bloc-prod-cont .fd_person img{width:100%;}
+article#hot-now-new > .content .bloc-prod-cont .fd_person p{font-family:'ITCAvantGardePro-Md';font-size:11px;color:#fff;background-color: #000;padding: 8px 75px 8px 8px;display: table;line-height: 12px;}
+article#hot-now-new > .content .bloc-prod-cont .fd_person p strong{font-family:'ITCAvantGardePro-Demi';font-size:13px;font-weight:normal;text-transform:uppercase}
+
+article#hot-now-new > .content .bloc-prod-cont p.sst2{font-family:'ITCAvantGardePro-Bk';font-size:12px;font-style:italic;margin:8px 0 5px 0;line-height:16px}
+article#hot-now-new > .content .bloc-prod-cont p.sst3{font-family:'ITCAvantGardePro-Bk';font-size:9px;margin:10px 0 0 0}
+article#hot-now-new > .content .bloc-prod-cont p.sst4{margin:20px 0 0 0;display:block}
+article#hot-now-new > .content .bloc-prod-cont img{width:100%;display:block;margin-top:8px;}
+article#hot-now-new > .content .bloc-prod-cont a.link {position: relative;clear:both;z-index: 3;line-height: 14px;text-align: center;margin: 10px 0;font-family:'ITCAvantGardePro-Demi';background-color:#fff;white-space:nowrap;height: 25px;color:#000;border:1px solid #000;padding:6px 20px 4px 7px;text-decoration:none;text-transform:uppercase;font-weight:bold;font-size:12px;display:table;float:left;}
+article#hot-now-new > .content .bloc-prod-cont a.link:hover {background-color:#000;color:#fff}
+article#hot-now-new > .content .bloc-prod-cont a.link:after {content:"►";display:table;float:right;font-size:80%;font-family:sans-serif;position: absolute;top: 5px;right: 2px;}
+
+/**************************** Fiche produit *********************************/
+
+article#product > .content .description ul.txt1 {margin:0;padding:0 0 0 12px}
+article#product > .content .description .blc-info {display:table;background-color:#ececec;text-align: center;margin-top: 10px;width:100%;}
+article#product > .content .description .blc-info + .blc-info {margin-top: 25px}
+article#product > .content .description .blc-info p {font-family:Arial;font-size:12px;line-height: 14px;padding:8px;text-align:center;}
+article#product > .content .description .blc-info p em {color: #000000;font-family:Arial;font-style: normal}
+article#product > .content .description .blc-info a:hover,article#product > .content .description .blc-info a:hover p em {color: #ae0000;}
+article#product > .content .description .blc-info a {text-decoration:none}
+article#product > .content .description .blc-info p{font-family:Arial}
+article#product > .content .description .videos-container .video-vign:first-child{margin-left: 0px;}
+article#product > .content .description .videos-container .video-vign {display:inline-block;width: 47%;margin:30px 0 0 32px}
+article#product > .content .description .videos-container .video-vign.clear{clear:both; margin-left: 0;float: left;}
+article#product > .content .description .videos-container .video-vign.right{float:right;}
+article#product > .content .description .videos-container .video-vign img {border: 1px solid #000;width: 99%;padding-bottom: 1px;}
+article#product > .content .description .videos-container .video-vign a {width: 100%;display: table;clear: both;}
+article#product > .content .description .videos-container .video-vign p {font-family:Arial;margin-top: 10px;width:100%;float: left;display: table;clear: both;}
+
+article#product > .content .description .banner-container {margin:25px 0;position:relative;clear:both;overflow: hidden;text-align: center;}
+article#product > .content .description .banner-container p {font-family:'ITCAvantGardePro-Bk';color:#fff;text-transform:uppercase;font-size:12px;width:305px;position:absolute;top:12px;left:160px}
+article#product > .content .description .banner-container a.link {font-family:'ITCAvantGardePro-Bk';background-color:#000;color:#fff;padding:3px 5px 0px 6px;text-decoration:none;text-transform:uppercase;font-size:14px;position: absolute;top:28px;right:15px}
+article#product > .content .description .banner-container a.link:after {content:"►";display:block;float:right;font-size:60%;margin:2px 0 0 5px;font-family:sans-serif}
+
+article#product > .content .description .gdban p strong{font-size:17px;}
+article#product > .content .description .gdban p{font-size:13px;left:125px;top:15px;line-height:18px;text-align:center;width:350px}
+article#product > .content .description .gdban a.link {top:120px;right:230px;font-size:14px;}
+
+@media only screen and (max-width : 1020px) and (orientation : portrait){
+article#hot-now-new > .content .bloc-prod-cont .fd_person p {width: 370px}
+}
+@media only screen and (max-width : 650px), only screen and (min-device-width : 721px){
+article#hot-now-new > .content .bloc-prod-cont .fd_person p {width: 370px}
+}
+
+@media only screen and (max-width : 650px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait), only screen and (max-device-width: 1280px) and (orientation:landscape) and (resolution: 306dpi){
+article#hot-now-new > header,article#hot-now-new > .content .bloc-prod{margin-bottom:10px}
+article#hot-now > header > h1{width:100%;}
+article#hot-now-new > header > h1{width:100%;margin:0}
+article#hot-now-new > header > h1 img{display: table;width:100%;margin:0 auto}
+article#hot-now-new > header > .season{width:100%;padding-top:50px}
+article#hot-now-new > header .season p:first-child + p + p,article#hot-now-new > header .season p{width:95%}
+article#hot-now-new > header .season p:first-child{width:auto;margin:10px 0 0 0;padding-right: 10px;}
+article#hot-now-new > header > .player{width:100%;position:static;height:auto}
+
+article#hot-now-new > .content .bloc-prod{height:auto;padding:0}
+article#hot-now-new > .content .bloc-prod-cont{width:100%;padding:10px;margin-top:232px}
+article#hot-now-new > .content .bloc-prod-cont h1{font-size:14px;height:35px}
+article#hot-now-new > .content .bloc-prod-cont p.sst1{font-size:13px;margin-top:10px}
+article#hot-now-new > .content .bloc-prod-cont p.sst2{font-size:11px}
+article#hot-now-new > .content .bloc-prod-cont p.sst4{margin:0}
+
+article#hot-now-new > .content .bloc-prod-cont .fd_person{height:56px;width: 100%;}
+article#hot-now-new > .content .bloc-prod-cont .fd_person p{font-size:8px;width: 100%;}
+article#hot-now-new > .content .bloc-prod-cont .fd_person p strong{font-size:10px;}
+
+article#product > .content .description ul.txt1{list-style: none}
+article#product > .content .description {padding-left:0;margin-left:0;}
+article#product > .content .description .blc-info {width:100%;}
+article#product > .content .description .blc-info + .blc-info {margin-top: 15px}
+article#product > .content .description .blc-info p:first-child {padding:10px}
+article#product > .content .description .videos-container{display: table;width:100%}
+article#product > .content .description .videos-container .video-vign a{width: 50%;display: table;float: left;}
+article#product > .content .description .videos-container .video-vign img{width:100%}
+article#product > .content .description .videos-container .video-vign {margin:10px 0 0 0;width:100%;clear: both;}
+article#product > .content .description .videos-container .video-vign.right {clear: both;float: left;}
+article#product > .content .description .videos-container .video-vign p{width:45%;display: block;float: left;margin: 0 0 0 5px;padding: 0;}
+article#product > .content .description .banner-container {margin:12px 0 0 0;height:63px}
+article#product > .content .description .banner-container p strong {font-size:9px}
+article#product > .content .description .banner-container p {font-size:8px;left:60px;top:5px;width:165px}
+article#product > .content .description .banner-container a.link {font-size:10px;right:4px;top:32px}
+article#product > .content .description .banner-container a.link:after {margin:-2px 0 0 5px;font-size:80%}
+
+article#product > .content .description .gdban {margin-bottom: 20px}
+article#product > .content .description .gdban img{height:120px}
+article#product > .content .description .gdban p strong{font-size:11px;}
+article#product > .content .description .gdban p{font-size:9px;left:50px;line-height:11px;top:6px;width:200px;}
+article#product > .content .description .gdban a.link {top:77px;right:90px;font-size:13px;}
+
+}
+
+/* Fin de ancienne style.css */
