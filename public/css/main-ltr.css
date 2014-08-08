@@ -1866,7 +1866,7 @@ html.no-touch header.role-banner nav.role-navigation > ul > li > a:hover {
 }
 
 .carousel.big article.product img{
-    max-height:150px;
+    /*max-height:150px;*/
 }
 .template-lp-2 .carousel.big-big article.product img{
     vertical-align: middle;
@@ -6452,16 +6452,16 @@ html.ie8 #brand .carousel.big .move-left,html.ie8 .template-lp-2 .carousel.big-b
 }
 
 #brand .carousel.big article.product > header,.template-lp-2 .carousel.big-big article.product > header,.template-1 .carousel.big article.product > header,#category .carousel.big article.product > header {
-    width:100%;
-    display:table;
+    /*width:100%;*/
+    /*display:table;*/
     vertical-align: middle;
     height: 120px;
 }
 
 #brand .carousel.big article.product > header a,.template-lp-2 .carousel.big-big article.product > header a,.template-1 .carousel.big article.product > header a,#category .carousel.big article.product > header a {
-    display:table-cell;
-    vertical-align:middle;
-    text-align:center;
+    /*display:table-cell;*/
+    /*vertical-align:middle;*/
+    /*text-align:center;*/
 }
 
 #brand .carousel.big article.product .image-container,.template-lp-2 .carousel.big-big article.product .image-container,.template-1 .carousel.big article.product .image-container,#category .carousel.big article.product .image-container {
@@ -6470,7 +6470,7 @@ html.ie8 #brand .carousel.big .move-left,html.ie8 .template-lp-2 .carousel.big-b
 
 #brand .carousel.big article.product img,.template-lp-2 .carousel.big-big article.product img,.template-1 .carousel.big article.product img,#category .carousel.big article.product img {
     margin:0 auto;
-    display:table;
+    /*display:table;*/
 }
 
 #brand .carousel.big > ul > li > ul > li {
@@ -6556,14 +6556,14 @@ section#results div#map-canvas {
 .image-container {
     font-size:0;
     vertical-align: middle;
-    display: table;
+/*    display: table;*/
     margin: 0 auto;
 }
 
 article.product img {
-    display:block;
-    margin:auto;
-    max-width:67.5px;
+    /*display:block;*/
+    /*margin:auto;*/
+    /*max-width:67.5px;*/
 }
 
 article.product span.brand,article.product span.name,article.product span.description {
@@ -8143,3 +8143,24 @@ article#product > .content .description .gdban a.link {top:77px;right:90px;font-
 }
 
 /* Fin de ancienne style.css */
+
+.carousel.big ul li ul li
+{
+    max-width: 33%;
+}
+.carousel.big ul li ul li article header a div.image-container{
+    height: 120px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    line-height: 170px;
+    /*background: red;*/
+
+}
+.carousel.big ul li ul li article header a div.image-container img
+{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
