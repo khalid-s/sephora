@@ -1795,9 +1795,9 @@ html.no-touch header.role-banner nav.role-navigation > ul > li > a:hover {
 }
 
 .carousel > ul > li > ul > li {
-    position:relative;
-    float:left;
-    width:33.333333333333336%;
+    /*position:relative;*/
+    /*float:left;*/
+    /*width:33.333333333333336%;*/
 }
 
 @media only screen and (max-width : 650px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait), only screen and (max-device-width: 1280px) and (orientation:landscape) and (resolution: 306dpi) {
@@ -3433,21 +3433,21 @@ article#hot-now > header .player {
 
 article#hot-now > ul {
     list-style-type:none;
-    padding:10px 0 0 0;
-    margin:0;
+    padding:0;
+    margin:0 auto;
     display:block;
-    position: relative;
-    table-layout:fixed;
+    /*position: relative;*/
+    /*table-layout:fixed;*/
     width:100%;
 }
 
 article#hot-now > ul > li {
-    display:table-cell;
-    vertical-align:top;
-    width:25%;
+    /*display:table-cell;*/
+    /*vertical-align:top;*/
+    /*width:25%;*/
     background-color:#fff;
-    border-left:10px solid #ededed;
-    border-right:10px solid #ededed;
+    /*border-left:10px solid #ededed;*/
+    /*border-right:10px solid #ededed;*/
 }
 
 article#hot-now > ul > li:first-child {
@@ -6422,13 +6422,13 @@ html.ie8 .template-4 > ol li:first-child  + li + li + li + li + li + li + li + l
 }
 
 .carousel > ul > li > ul > li {
-    display:table;
-    table-layout:fixed;
+    /*display:table;*/
+    /*table-layout:fixed;*/
 }
 
 .carousel > ul > li > ul > li > article {
-    display:table-cell;
-    vertical-align:top;
+    /*display:table-cell;*/
+    /*vertical-align:top;*/
 }
 
 #brand .carousel.big > ul > li > ul,.template-lp-2 .carousel.big-big > ul > li > ul,.template-1 .carousel.big > ul > li > ul,#category .carousel.big > ul > li > ul {
@@ -8144,13 +8144,39 @@ article#product > .content .description .gdban a.link {top:77px;right:90px;font-
 
 /* Fin de ancienne style.css */
 
+
+/*Le css rajouter par Khalid Business decision cd-dessous*/
+
 /*Carousel avec 3 articles*/
 
-.carousel.big ul li ul li
+/* .carousel.big ul li ul li
 {
-    max-width: 33%;
+    width: 33%;
+    display: inline-block;
+    overflow: hidden;
 }
 .carousel.big ul li ul li article header a div.image-container{
+    height: 120px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 170px;
+    background: red;
+
+}
+.carousel.big ul li ul li article header a div.image-container img
+{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+} */
+.carousel ul li ul li
+{
+    width: 33%;
+    display: inline-block;
+    /*overflow: hidden;*/
+}
+.carousel ul li ul li article header a div.image-container{
     height: 120px;
     padding: 0;
     text-align: center;
@@ -8160,7 +8186,29 @@ article#product > .content .description .gdban a.link {top:77px;right:90px;font-
     /*background: red;*/
 
 }
-.carousel.big ul li ul li article header a div.image-container img
+.carousel ul li ul li article header a div.image-container img
+{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.template-lp-2 .carousel ul li ul li
+{
+    max-width: 33%;
+    display: inline-block;
+}
+.template-lp-2 .carousel ul li ul li article header a div.image-container{
+    height: 120px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    line-height: 170px;
+    /*background: red;*/
+
+}
+.template-lp-2 .carousel ul li ul li article header a div.image-container img
 {
     max-width: 100%;
     max-height: 100%;
@@ -8170,9 +8218,41 @@ article#product > .content .description .gdban a.link {top:77px;right:90px;font-
 /* Fin Carousel avec 3 articles*/
 
 
-.template-lp-3 .carousel.big ul li ul li
+.template-lp-3 .carousel ul li ul li
 {
-    max-width: 20% !important;
+    /*float: none;*/
+    width: 25% !important;
     display: inline-block;
-    float: none;
+}
+
+
+.template-lp-3 .carousel ul li ul li article header a div.image-container
+{
+    height: 120px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 170px;
+}
+
+
+
+.template-lp-3 .carousel ul li ul li article header a div.image-container img
+{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+#hot-now ul li
+{
+    display: inline-block;
+    width: 24.7%;
+    margin: 0 !important;
+    padding: 0 10px;
+}
+#hot-now ul
+{
+    margin: 18px 0 10px 0 !important;
+    padding: 0;
 }
