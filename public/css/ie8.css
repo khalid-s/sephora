@@ -1,0 +1,50 @@
+.carousel ul li ul li
+{
+    width: 32%;
+}
+
+.template-1 .carousel ul li ul li
+{
+    width:49% !important;
+}
+
+.template-lp-3 .carousel ul li ul li
+{
+    width: 24% !important;
+    display: inline-block;
+}
+
+#storelocator form.inline > ul > li
+{
+	border:none;
+}
+#storelocator form ul li input[type=text], #storelocator form ul li input[type=search]
+{
+	position: relative;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 12px;
+	top: 0px;
+	color: black;
+}
+#storelocator form ul li:last-child
+{
+	background: #FFF;
+	background-color: white;
+	padding-left: 0;
+	border-left-width: 0px;
+	border: none;
+}
+#storelocator form ul li input[type=submit]
+{
+	position: relative;
+	height: 29px;
+	left: -7px;
+	border:none;
+}
+
+#hot-now ul li
+{
+	width: 232px !important;
+}

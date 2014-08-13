@@ -3434,11 +3434,11 @@ article#hot-now > header .player {
 article#hot-now > ul {
     list-style-type:none;
     padding:0;
-    margin:0 auto;
+    margin:18px auto 0;
     display:block;
     /*position: relative;*/
     /*table-layout:fixed;*/
-    width:100%;
+    /*width:100%;*/
 }
 
 article#hot-now > ul > li {
@@ -8076,7 +8076,7 @@ article#product > .content .description .videos-container .video-vign:first-chil
 article#product > .content .description .videos-container .video-vign {display:inline-block;width: 47%;margin:30px 0 0 32px}
 article#product > .content .description .videos-container .video-vign.clear{clear:both; margin-left: 0;float: left;}
 article#product > .content .description .videos-container .video-vign.right{float:right;}
-article#product > .content .description .videos-container .video-vign img {border: 1px solid #000;width: 99%;padding-bottom: 1px;}
+article#product > .content .description .videos-container .video-vign img {border: 1px solid #000;width: 99%;/*padding-bottom: 1px;*/}
 article#product > .content .description .videos-container .video-vign a {width: 100%;display: table;clear: both;}
 article#product > .content .description .videos-container .video-vign p {font-family:Arial;margin-top: 10px;width:100%;float: left;display: table;clear: both;}
 
@@ -8218,6 +8218,15 @@ article#product > .content .description .gdban a.link {top:77px;right:90px;font-
 /* Fin Carousel avec 3 articles*/
 
 
+.clear-both
+{
+    clear: both;
+}
+
+.margin20-0
+{
+    margin: 20px 0;
+}
 .template-lp-3 .carousel ul li ul li
 {
     /*float: none;*/
@@ -8243,16 +8252,104 @@ article#product > .content .description .gdban a.link {top:77px;right:90px;font-
     max-height: 100%;
     margin: 0 auto;
 }
+.template-lp-3 section ul.grid li article.product header
+{
+    text-align: center;
+}
 
 #hot-now ul li
 {
     display: inline-block;
-    width: 24.7%;
+    width: 234px;
     margin: 0 !important;
     padding: 0 10px;
+    margin-right: 10px !important;
 }
-#hot-now ul
+#hot-now ul li:first-child
 {
-    margin: 18px 0 10px 0 !important;
+    /*margin:0;*/
+}
+#hot-now ul li:last-child
+{
+    margin-right:0 !important;
+}
+#hot-now > ul
+{
+    /*margin: 18px auto 10px auto !important;*/
+    width: 980px;
+    margin: 0 auto;
     padding: 0;
+}
+
+
+#brand > header .image-container {
+    max-width:290px;
+    display: inline-block;
+}
+
+.portrait #brand h1 > img
+{
+    max-width: 100%;
+}
+
+@media only screen and (max-width : 650px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait), only screen and (max-device-width: 1280px) and (orientation:landscape) and (resolution: 306dpi){
+
+
+
+#container
+{
+    width: 100% !important;
+}
+
+#storelocator #results a.more-alt
+{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    top: -2px;
+}
+
+#container #saga .content ul.timeline li
+{
+    width: 49.2%;
+}
+
+
+article#hot-now > ul
+{
+    width: 100%;
+}
+
+
+article#hot-now > ul > li
+{
+    width: 100%;
+    margin: 18px 0 !important;
+    float: none;
+    border: none;
+    display: block;
+}
+
+
+
+article#product > .content .description .videos-container .video-vign a
+{
+    float: none;
+    display: inline-block;
+    clear: none;
+}
+article#product > .content .description .videos-container .video-vign p 
+{
+    display: inline;
+    float: right;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
 }
