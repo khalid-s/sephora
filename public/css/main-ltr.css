@@ -6131,7 +6131,7 @@ html.android .template-2 .many-more > a,html.android .template-2 .many-more > .i
     }
 
     .template-1 > .content .image-container {
-        height:auto !important;
+        /*height:auto !important;*/
     }
 
     .template-1 > .content > a {
@@ -6173,13 +6173,13 @@ html.android .template-2 .many-more > a,html.android .template-2 .many-more > .i
 
 @media only screen and (max-width : 650px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait), only screen and (max-device-width: 1280px) and (orientation:landscape) and (resolution: 306dpi) {
     .template-1 > .content .image-container {
-        height:400px;
+        /*height:400px;*/
     }
 }
 
 @media only screen and (max-width : 500px) {
     .template-1 > .content .image-container {
-        height:400px;
+        /*height:400px;*/
     }
 }
 
@@ -6507,12 +6507,12 @@ html.ie8 #brand .carousel.big .move-left,html.ie8 .template-lp-2 .carousel.big-b
     }
 
     .template-1 .carousel.big > ul > li > ul > li > article {
-        height:140px;
+        /*height:140px;*/
     }
 
     .template-1 .carousel.big > ul > li > ul > li article.product header a {
-        width:90px;
-        height:90px;
+        /*width:90px;*/
+        /*height:90px;*/
     }
 }
 
@@ -8077,7 +8077,7 @@ article#product > .content .description .videos-container .video-vign {display:i
 article#product > .content .description .videos-container .video-vign.clear{clear:both; margin-left: 0;float: left;}
 article#product > .content .description .videos-container .video-vign.right{float:right;}
 article#product > .content .description .videos-container .video-vign img {border: 1px solid #000;width: 99%;/*padding-bottom: 1px;*/}
-article#product > .content .description .videos-container .video-vign a {width: 100%;display: table;clear: both;}
+/*article#product > .content .description .videos-container .video-vign a {width: 100%;display: table;clear: both;}*/
 article#product > .content .description .videos-container .video-vign p {font-family:Arial;margin-top: 10px;width:100%;float: left;display: table;clear: both;}
 
 article#product > .content .description .banner-container {margin:25px 0;position:relative;clear:both;overflow: hidden;text-align: center;}
@@ -8123,7 +8123,7 @@ article#product > .content .description .blc-info {width:100%;}
 article#product > .content .description .blc-info + .blc-info {margin-top: 15px}
 article#product > .content .description .blc-info p:first-child {padding:10px}
 article#product > .content .description .videos-container{display: table;width:100%}
-article#product > .content .description .videos-container .video-vign a{width: 50%;display: table;float: left;}
+/*article#product > .content .description .videos-container .video-vign a{width: 50%;display: table;float: left;}*/
 article#product > .content .description .videos-container .video-vign img{width:100%}
 article#product > .content .description .videos-container .video-vign {margin:10px 0 0 0;width:100%;clear: both;}
 article#product > .content .description .videos-container .video-vign.right {clear: both;float: left;}
@@ -8358,60 +8358,86 @@ article#hot-now-new > header p
 
 
 
-#container
-{
-    width: 100% !important;
-}
+    #container
+    {
+        width: 100% !important;
+    }
 
-#storelocator #results a.more-alt
-{
-    position: relative;
-    bottom: 0;
-    right: 0;
-    top: -2px;
-}
+    #storelocator #results a.more-alt
+    {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        top: -2px;
+    }
 
-#container #saga .content ul.timeline li
-{
-    width: 49.2%;
-}
-
-
-article#hot-now > ul
-{
-    width: 100%;
-}
+    #container #saga .content ul.timeline li
+    {
+        width: 49.2%;
+    }
 
 
-article#hot-now > ul > li
-{
-    width: 100%;
-    margin: 18px 0 !important;
-    float: none;
-    border: none;
-    display: block;
-}
+    article#hot-now > ul
+    {
+        width: 100%;
+    }
 
 
+    article#hot-now > ul > li
+    {
+        width: 100%;
+        margin: 18px 0 !important;
+        float: none;
+        border: none;
+        display: block;
+    }
 
-article#product > .content .description .videos-container .video-vign a
-{
-    float: none;
-    display: inline-block;
-    clear: none;
-}
-article#product > .content .description .videos-container .video-vign p 
-{
-    display: inline;
-    float: right;
-    padding-top: 10px;
-}
+    article#hot-now-new > header h1
+    {
+        padding: 20px 0 !important;
+    }
+    article#hot-now-new > header .image
+    {
+        width: 100%;
+        float: none;
+        padding: 0 0 20px 0;
+    }
+    article#hot-now-new > header p
+    {
+        max-width: 95% !important;
+        width: 95% !important;
+        padding: 0 0 20px 0 !important;
+    }
 
-
-
-
-
-
-
-
+    .carousel ul li ul li
+    {
+        width: 50%;
+    }
+    .carousel ul li ul li article header div.image-container
+    {
+        max-height: 100%;
+    }
+    .template-lp-3 .carousel ul li ul li
+    {
+        width: 50% !important;
+    }
+    article#product > .content .description .videos-container .video-vign p 
+    {
+        display: inline;
+        float: right;
+        padding-top: 10px;
+    }
+    article#product > .content .description .videos-container .video-vign img
+    {
+        width: 50%;
+    }
+    article#product > .content .description .banner-container
+    {
+        height: 100%;
+    }
+    article#product > .content .description .banner-container img
+    {
+        padding-top: 10px !important;
+        max-width: 100%;
+    }
 }
