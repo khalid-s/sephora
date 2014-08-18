@@ -5200,7 +5200,8 @@ html.ie6 #container > aside ul,html.ie7 #container > aside ul,html.ie8 #containe
 #category > header > img,#category > header > a > img, #category > header > a{
     float:right;
     border: 0;
-    width:405px;
+    /*width:405px;*/
+    width: 50%;
     height:auto;
 }
 
@@ -5221,9 +5222,10 @@ html.ie6 #container > aside ul,html.ie7 #container > aside ul,html.ie8 #containe
 
 #category h1,#category p {
     margin:0;
-    max-width:calc(100% - 304px);
+    /*max-width:calc(100% - 304px);*/
     *padding-right:314px;
     *max-width:none;
+    width: 50%;
 }
 
 #category h1 > img {
@@ -5397,7 +5399,7 @@ html.ie6 #container > aside ul,html.ie7 #container > aside ul,html.ie8 #containe
 .template-lp-2 > header > .image-container,.template-lp-3 > header > .image-container,.template-lp-2 > header > p,.template-lp-3 > header > p {
     display:table-cell;
     height:auto;
-    vertical-align:middle;
+    vertical-align:top;
 }
 
 .template-lp-2 > header img,.template-lp-3 > header img {
@@ -5671,7 +5673,7 @@ html.android .template-3 > header h1,html.chrome-mobile .template-3 > header h1,
     font-size:0;
     width:45%;
     display:table-cell;
-    vertical-align:middle;
+    vertical-align:top;
 }
 
 .template-3 > header > div > .image-container img {
@@ -5681,7 +5683,7 @@ html.android .template-3 > header h1,html.chrome-mobile .template-3 > header h1,
 .template-3 > header > div > p {
     width:55%;
     display:table-cell;
-    vertical-align:middle;
+    vertical-align:top;
 }
 
 .template-3 > header p {
@@ -8352,7 +8354,7 @@ article#hot-now-new > header .image img
 
 article#hot-now-new > header p
 {
-    max-width: 38%;
+    max-width: 37%;
 }
 
 article#product > .content .description .videos-container .video-vign
@@ -8370,6 +8372,24 @@ article#product > .content .description .videos-container div.video-vign img
 article#product > .content .description .videos-container div.video-vign.odd
 {
     margin-left: 0px;
+}
+
+.template-lp-3 > header > .image-container
+{
+    vertical-align: top;
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+
+.template-lp-3 > header > p
+{
+    vertical-align: middle;
+    display: block;
+    float: right;
+    width: 50%;
+    text-align: left;
 }
 
 /*IE8 Compatibility*/
