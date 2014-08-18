@@ -5485,7 +5485,7 @@ html.ie6 #container > aside ul,html.ie7 #container > aside ul,html.ie8 #containe
 .template-lp > header,.template-lp-3 > header {
     background-color:#000;
     color:#fff;
-    padding:10px;
+    /*padding:10px;*/
     zoom:1;
 }
 
@@ -6495,6 +6495,7 @@ html.ie8 #brand .carousel.big .move-left,html.ie8 .template-lp-2 .carousel.big-b
 
 .template-1 .carousel.big > ul > li > ul > li {
     width:50%;
+    vertical-align: top !important;
 }
 
 @media only screen and (max-width : 650px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait), only screen and (max-device-width: 1280px) and (orientation:landscape) and (resolution: 306dpi) {
@@ -8027,7 +8028,7 @@ article#hot-now-new > header .season p:first-child{margin-top: -60px;line-height
 article#hot-now-new > header .season p:first-child > strong{font-family:'Century-Gothic-Bold';font-size:43px;display:inline-block;*display:inline;*zoom:1;margin-left:10px}
 article#hot-now-new > header .season p:first-child + p{font-family:Arial;font-weight:bold;font-size:12px}
 article#hot-now-new > header .season p:first-child + p + p{font-family:Arial;font-weight:normal;font-size:12px;/*width: 36%;*/}
-article#hot-now-new > header .player{position:absolute;top:20px;right:20px;width:60%;border:0;height:89%;z-index:10}
+article#hot-now-new > header .player{position:absolute;top:20px;right:20px;width:60%;border:0;height:89%;z-index:10; max-height: 336px;}
 
 article#hot-now-new > .content {display:table;width:100%}
 article#hot-now-new > .content .bloc-prod{width:100%;margin-bottom:25px;padding:40px 0}
@@ -8354,6 +8355,75 @@ article#hot-now-new > header p
     max-width: 38%;
 }
 
+article#product > .content .description .videos-container .video-vign
+{
+    margin-top: 30px;
+}
+article#product > .content .description .videos-container div.video-vign:nth-child(odd)
+{
+    /*margin-left: 0px !important;*/
+}
+article#product > .content .description .videos-container div.video-vign img
+{
+    /*max-height: 149px;*/
+}
+article#product > .content .description .videos-container div.video-vign.odd
+{
+    margin-left: 0px;
+}
+
+/*IE8 Compatibility*/
+html.ie8 .carousel ul li ul li
+{
+    width: 32%;
+}
+
+html.ie8 .template-1 .carousel ul li ul li
+{
+    width:49% !important;
+}
+
+html.ie8 .template-lp-3 .carousel ul li ul li
+{
+    width: 24% !important;
+    display: inline-block;
+}
+
+html.ie8 #storelocator form.inline > ul > li
+{
+    border:none;
+}
+html.ie8 #storelocator form ul li input[type=text], #storelocator form ul li input[type=search]
+{
+    position: relative;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 12px;
+    top: 0px;
+    color: black;
+}
+html.ie8 #storelocator form ul li:last-child
+{
+    background: #FFF;
+    background-color: white;
+    padding-left: 0;
+    border-left-width: 0px;
+    border: none;
+}
+html.ie8 #storelocator form ul li input[type=submit]
+{
+    position: relative;
+    height: 29px;
+    left: -7px;
+    border:none;
+}
+
+html.ie8 #hot-now ul li
+{
+    width: 232px !important;
+}
+/*End IE8 Compatibility*/
 @media only screen and (max-width : 650px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait), only screen and (max-device-width: 1280px) and (orientation:landscape) and (resolution: 306dpi){
 
 
@@ -8440,4 +8510,9 @@ article#hot-now-new > header p
         padding-top: 10px !important;
         max-width: 100%;
     }
+}
+
+article#product > .content .description .videos-container .video-vign
+{
+    float: left;
 }
