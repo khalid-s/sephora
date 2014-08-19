@@ -4184,7 +4184,7 @@ article#product > .content .description p:first-of-type {
 }
 
 .grid-2 span.more-alt {
-    font-size:10px;
+    font-size:11px;
 }
 
 @media only screen and (max-width : 650px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait), only screen and (max-device-width: 1280px) and (orientation:landscape) and (resolution: 306dpi) {
@@ -8418,7 +8418,10 @@ article#product > .content .description .videos-container div.video-vign.odd
 {
 
 }
-
+#category > header > a > img
+{
+    width: 100%;
+}
 #storelocator a.previous-page span
 {
     font-size: 11px !important;
@@ -8437,7 +8440,7 @@ article#product > .content .description .videos-container div.video-vign.odd
 {
     color: #000;
     border: 0px none;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 11px;
 }
 #storelocator article.store.clickable footer:before
