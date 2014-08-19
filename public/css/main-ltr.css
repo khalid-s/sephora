@@ -735,7 +735,7 @@ header.role-banner ul.languages a {
 }
 
 header.role-banner ul.languages li {
-    display:inline;
+    display:inline-block;
 }
 
 header.role-banner ul.languages li.current a,header.role-banner ul.languages li a:hover {
@@ -5198,12 +5198,12 @@ html.ie6 #container > aside ul,html.ie7 #container > aside ul,html.ie8 #containe
 }
 
 #category > header > img,#category > header > a > img, #category > header > a{
-    /*float:right;*/
+    float:right;
     border: 0;
     /*width:405px;*/
     width: 50%;
     /*height:auto;*/
-    padding: 10px 10px 0 0;
+    /*padding: 10px 10px 0 0;*/
 }
 
 #category h1,#category p {
@@ -5520,7 +5520,7 @@ html.android .template-lp > header h1,html.android .template-lp-3 > header h1,ht
 
 .template-lp > header p,.template-lp-3 > header p {
     font-family:'Century-Gothic';
-    font-size:15px;
+    font-size:13px;
 }
 
 .template-lp > header > h1,.template-lp-3 > header > h1,.template-lp > header > p,.template-lp-3 > header > p {
@@ -8356,7 +8356,7 @@ article#hot-now-new > header .image img
 
 article#hot-now-new > header p
 {
-    max-width: 37%;
+    max-width: 39%;
 }
 
 article#product > .content .description .videos-container .video-vign
@@ -8398,13 +8398,22 @@ article#product > .content .description .videos-container div.video-vign.odd
 {
     float: left;
 }
-
+.template-4 > header
+{
+    padding: 0px;
+}
 .template-4 > header > h1
 {
     display: block;
     vertical-align: top;
     float: left;
+}.template-4 > header > p
+{
+    float: right;
+    padding-right: 10px;
+    padding-left: 10px;
 }
+
 .template-4 > ol .image-container img
 {
 
@@ -8416,20 +8425,36 @@ article#product > .content .description .videos-container div.video-vign.odd
     text-decoration: underline;
     color: #9e9e9e;
 }
-#storelocator #results header ul.links li a
-{
-    color: #000;
-    border: 0px none;
-    text-decoration: underline;
-    font-size: 12px
-}
-#storelocator #results header ul.links li a:hover
+#storelocator #results header ul.links li a, #storelocator #results header ul.links li a:hover
 {
     color: #000;
     border: 0px none;
     text-decoration: underline;
     font-size: 12px;
-    vertical-align: middle;
+    vertical-align:middle;
+}
+#storelocator article.store.clickable a.more-alt, #storelocator article.store.clickable a.more-alt:hover
+{
+    color: #000;
+    border: 0px none;
+    text-decoration: underline;
+    font-size: 11px;
+}
+#storelocator article.store.clickable footer:before
+{
+    padding-right: 6px;
+    content: '\f101';
+    font-size: 13px;
+    line-height: inherit;
+    /*display: block;
+    float: left;
+    position: relative;
+    top: 2px;*/
+}
+
+.portrait article#category > header > p
+{
+    clear: left;    
 }
 /*IE8 Compatibility*/
 html.ie8 .carousel ul li ul li
