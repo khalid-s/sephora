@@ -1830,11 +1830,11 @@ html.no-touch header.role-banner nav.role-navigation > ul > li > a:hover {
 }
 
 .carousel.big {
-    height:185px;
+    /*height:185px;*/
 }
 
 .carousel.big-big {
-    height:188px;
+    /*height:188px;*/
 }
 .carousel.big,.carousel.big-big {
     -webkit-box-shadow:inset 0 0 10px #ededed;
@@ -8213,8 +8213,8 @@ article#product > .content .description .gdban a.link {top:77px;right:90px;font-
 }
 .carousel ul li ul li article.product div.content
 {
-    max-height: 50px;
-    overflow: hidden;
+    /*max-height: 50px;*/
+    /*overflow: hidden;*/
     /*padding-bottom: 5px;*/
 }
 .carousel ul li ul li article header a div.image-container{
@@ -8344,11 +8344,12 @@ article#product > .content .description .gdban a.link {top:77px;right:90px;font-
 #hot-now ul li
 {
     display: block;
-    width: 234px;
+    width: 237px;
     margin: 0 !important;
     padding: 0 10px;
     margin-right: 10px !important;
     float: left;
+    max-width: 100%;
 }
 #hot-now ul li:first-child
 {
@@ -8402,7 +8403,7 @@ article#hot-now-new > header .image img
 article#hot-now-new > header p
 {
     max-width: 37%;
-    width: 37%;
+    /*width: 37%;*/
 }
 
 article#product > .content .description .videos-container .video-vign
@@ -8677,8 +8678,8 @@ html.ie8 article#hot-now-new > header p
     }
     #brand > header .image-container img
     {
-        height: 300px;
-        max-height: 100%;
+        /*height: 300px;*/
+        max-height: 300px;
         max-width: 100%;
     }
     #brand > header .header-content
@@ -8764,3 +8765,4 @@ article#product > .content .description .videos-container .video-vign
     padding: 0;
 }
 /*FIN BANDEAU COOKIE*/
+

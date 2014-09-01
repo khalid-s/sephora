@@ -302,7 +302,7 @@ productCarouselFor = function(elt) {
     nbPerSlide = 2;
   } else if (article.id === 'category' || $$.hasClass(article, 'template-lp-2')) {
     nbPerSlide = 3;
-  } else if (article.id === 'category' || $$.hasClass(article, 'template-lp-3')) {
+  } else if ($$.hasClass(article, 'template-lp-3')) {
     nbPerSlide = 4;
   }
   if (isMobile) {
