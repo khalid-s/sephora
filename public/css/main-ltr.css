@@ -1798,6 +1798,7 @@ html.no-touch header.role-banner nav.role-navigation > ul > li > a:hover {
     /*position:relative;*/
     /*float:left;*/
     /*width:33.333333333333336%;*/
+    padding: 0 10px;
 }
 
 @media only screen and (max-width : 650px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait), only screen and (max-device-width: 1280px) and (orientation:landscape) and (resolution: 306dpi) {
@@ -5745,6 +5746,10 @@ html.android .template-3 > header h1,html.chrome-mobile .template-3 > header h1,
     .template-3 .order-by,.template-3 .order-by a {
         font-size:12px;
     }
+}
+
+.chrome-mobile .template-3 .order-by, .chrome-mobile .template-3 .order-by a {
+    font-size: 14px;
 }
 
 .template-3 .order-by a {
