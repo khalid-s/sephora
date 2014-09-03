@@ -1776,6 +1776,7 @@ html.no-touch header.role-banner nav.role-navigation > ul > li > a:hover {
     margin:auto;
     margin:0;
     list-style-type:none;
+    width: 0;
 }
 
 .carousel > ul > li > ul {
@@ -8068,19 +8069,19 @@ article#hot-now-new > header .season p:first-child + p + p{font-family:Arial;fon
 article#hot-now-new > header .player{position:absolute;top:20px;right:20px;width:60%;border:0;height:89%;z-index:10; max-height: 336px;}
 
 article#hot-now-new > .content {display:table;width:100%}
-article#hot-now-new > .content .bloc-prod{width:100%;margin-bottom:25px;padding:40px 0}
+article#hot-now-new > .content .bloc-prod{width:100%;margin-bottom:25px;padding:33px 0}
 article#hot-now-new > .content .prod-sampar{background:#fff url("../img/fd-prod-sampar.jpg") no-repeat top left}
 article#hot-now-new > .content .prod-benefit{background:#fff url("../img/fd-prod-benefit.jpg") no-repeat top right}
 article#hot-now-new > .content .prod-yves{background:#fff url("../img/fd-prod-yves.jpg") no-repeat top left}
 article#hot-now-new > .content .prod-made{background:#fff url("../img/fd-prod-made.jpg") no-repeat top right}
 
-article#hot-now-new > .content .bloc-prod-cont{background-color:#fff;width:52%;padding:20px 55px 5px 60px}
+article#hot-now-new > .content .bloc-prod-cont{background-color:#fff;width:52%;padding:10px 55px 5px 60px; max-height: 334px;}
 
 article#hot-now-new > .content .bloc-prod:after{clear:both;content:"";display:table}
 article#hot-now-new > .content .blocD{float:right}
 article#hot-now-new > .content .blocG{float:left}
-article#hot-now-new > .content .bloc-prod-cont h1{font-family:'ITCAvantGardePro-Bold';font-size:18px;text-transform:uppercase;height:42px}
-article#hot-now-new > .content .bloc-prod-cont p.sst1{z-index: 0;margin:20px 0 15px 0;font-size:16px;display: table;background-color: transparent;}
+article#hot-now-new > .content .bloc-prod-cont h1{font-family:'ITCAvantGardePro-Bold';font-size:18px;text-transform:uppercase;height:30px}
+article#hot-now-new > .content .bloc-prod-cont p.sst1{z-index: 0;margin:20px 0 0 0;font-size:16px;display: table;background-color: transparent;}
 article#hot-now-new > .content .bloc-prod-cont p.sst1 strong{text-transform:uppercase;font-size:16px;background-color: transparent;}
 article#hot-now-new > .content .bloc-prod-cont .fd_person{position:relative;display: table;width: 90%;margin-bottom: 20px;}
 article#hot-now-new > .content .bloc-prod-cont .fd_person .personn{position:absolute;display: table;position: absolute;bottom: -10px;right:5px;height: 87px;width: 77px;}
@@ -8114,7 +8115,7 @@ article#product > .content .description .videos-container .video-vign:first-chil
 article#product > .content .description .videos-container .video-vign {display:inline-block;width: 47%;margin:30px 0 0 32px}
 article#product > .content .description .videos-container .video-vign.clear{clear:both; margin-left: 0;float: left;}
 article#product > .content .description .videos-container .video-vign.right{float:right;}
-article#product > .content .description .videos-container .video-vign img {border: 1px solid #000;width: 99%;/*padding-bottom: 1px;*/box-sizing:initial;}
+article#product > .content .description .videos-container .video-vign img {border: 1px solid #000 !important;width: 99%;/*padding-bottom: 1px;*/box-sizing:unset; outline: 0px !important;}
 /*article#product > .content .description .videos-container .video-vign a {width: 100%;display: table;clear: both;}*/
 article#product > .content .description .videos-container .video-vign p {font-family:Arial;margin-top: 10px;width:100%;float: left;display: table;clear: both;}
 
