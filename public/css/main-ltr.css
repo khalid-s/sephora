@@ -6797,7 +6797,7 @@ html.android .timeline .year,html.chrome-mobile .timeline .year,html.ios5 .timel
     border-radius:50%;
     position:absolute;
     right:-17px;
-    bottom:-2px;
+    bottom:-5px;
     border:2px solid #000;
 }
 
@@ -6849,7 +6849,7 @@ html.android-desktop .timeline li.even .event h3:after {
     border-radius:50%;
     position:absolute;
     left:-17px;
-    bottom:-9px;
+    bottom:-4px;
     border:2px solid #000;
 }
 
@@ -8114,7 +8114,7 @@ article#product > .content .description .videos-container .video-vign:first-chil
 article#product > .content .description .videos-container .video-vign {display:inline-block;width: 47%;margin:30px 0 0 32px}
 article#product > .content .description .videos-container .video-vign.clear{clear:both; margin-left: 0;float: left;}
 article#product > .content .description .videos-container .video-vign.right{float:right;}
-article#product > .content .description .videos-container .video-vign img {border: 1px solid #000;width: 99%;/*padding-bottom: 1px;*/}
+article#product > .content .description .videos-container .video-vign img {border: 1px solid #000;width: 99%;/*padding-bottom: 1px;*/box-sizing:initial;}
 /*article#product > .content .description .videos-container .video-vign a {width: 100%;display: table;clear: both;}*/
 article#product > .content .description .videos-container .video-vign p {font-family:Arial;margin-top: 10px;width:100%;float: left;display: table;clear: both;}
 
@@ -8631,7 +8631,7 @@ html.ie8 article#hot-now-new > header p
     }
     article#hot-now-new > header p:first-child
     {
-        padding: 20px !important;
+        padding: 6px 20px 3px !important;
     }
 
     .carousel ul li ul li
@@ -8755,16 +8755,16 @@ article#product > .content .description .videos-container .video-vign
     color: #666;
 }
 .bandeau_cookie  #btn_close_cookie{
-    position: absolute;
+    position: relative;
     top:5px;
-    right: 20px;
+    right: -20px;
     width: 16px;
     height: 16px;
     border: 0;
 }
 .bandeau_cookie  #btn_close_cookie img{
-    width: 100%;
-    height: 100%;
+    /*width: 100%;*/
+    /*height: 100%;*/
     border: 0;
     margin: 0;
     padding: 0;
